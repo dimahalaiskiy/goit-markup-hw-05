@@ -272,9 +272,15 @@ ul,ol {
 }
 
 .benefits-list-item {
+    position: relative;
+    overflow: hidden;
     margin-top: 0px;
     margin-left: 30px;
     display: block;
+}
+
+.benefits-list-item:hover .overlay-benefits-img {
+    transform: translateY(0%);
 }
 
 .benefits-list-item-link {
@@ -287,6 +293,32 @@ ul,ol {
     border-radius: 4px;
 }
 
+.benefits-img-position {
+    display: block;
+}
+
+.overlay-benefits-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.overlay-benefits-img {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    height: 23.8%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(47, 48, 58, 0.8);
+    padding: 27px 82px;
+    transform: translateY(100%);
+    transition: transform 250ms linear;
+}
 /******* END BENEFITS *******/
 
 
