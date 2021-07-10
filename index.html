@@ -49,7 +49,7 @@
         <section class="conteiner-hero">
         <div class="container-hero-heading">
             <h1 class="hero-heading">Эффективные решения для вашего бизнеса</h1>
-            <button class="btn-style hero-bottom" type="button">Заказать услугу</button>
+            <button class="btn-style hero-bottom" type="button" data-modal-open>Заказать услугу</button>
         </div>
         </section>
         <!-- Второй блок "Чем мы занимаемся? "OUR BENEFITS-->
@@ -361,14 +361,15 @@
         </ul>
         </div>
     </footer>
-    <div class="backdrop-main-button">
+    <div class="backdrop-main-button is-hidden" data-modal>
         <div class="modal-main-button">
-            <button type="button" class="backdrop-quit-button">
+            <button type="button" class="backdrop-quit-button" data-modal-close>
                 <svg class="backdrop-quit-button-svg"> 
                     <use href="./img/icons.svg#icon-backdrop-quit"></use>
                 </svg>
             </button>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
