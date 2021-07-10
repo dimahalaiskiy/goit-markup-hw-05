@@ -626,6 +626,28 @@ ul,ol {
     transform: translate(-50%, -50%);
 }
 
+.backdrop-quit-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.backdrop-quit-button-svg {
+    width: 11px;
+    height: 11px;
+    fill: black;
+}
+
 /******* END BACKDROP *******/
 /******* PAGE !PORTFOLIO! *******/ 
 
